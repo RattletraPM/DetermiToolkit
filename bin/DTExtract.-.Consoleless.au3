@@ -4,6 +4,10 @@
  Author:         RattletraPM
 
  Script Function:
+ 	This is a version of DTExtract that doesn't use the console at all.
+ 	It will be used to incorporate DTExtract inside DetermiToolkit's GUI
+ 	rather than being its own separate tool.
+ 
 	Extracts the STRG chunk from data.win, then extracts the strings from that
 	chunk. If everything went well, it will also save some metadata about
 	data.win for later use.
